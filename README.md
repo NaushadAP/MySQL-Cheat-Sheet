@@ -56,11 +56,11 @@ DESCRIBE table_name column_name;
 SELECT * FROM table_name; -- Query all data from a table:
 -- Query data from one or more column of a table:
 SELECT column1, column2, ... FROM table_name;
-// Remove duplicate rows from the result of a query:
+-- Remove duplicate rows from the result of a query:
 SELECT DISTINCT (column) FROM table_name;
-// Query data with a filter using a WHERE clause:
+-- Query data with a filter using a WHERE clause:
 SELECT select_list FROM table_name WHERE condition;
-// Query data from multiple tables using inner join:
+-- Query data from multiple tables using inner join:
 SELECT select_list FROM table1 INNER JOIN table2 ON condition;
 -- Query data from multiple tables using left join:
 SELECT select_list FROM table1 LEFT JOIN table2 ON condition;
